@@ -178,7 +178,7 @@ a{
 }
 .my-text-body h1,h2,h3,h4,h5,h6 {
     font-family: 'Rubik One', sans-serif;
-    font-weight: 30 !important;
+    font-weight: 300 !important;
     margin-bottom: 20px;
 }
 .my-text-body h1{
