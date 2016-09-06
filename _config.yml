@@ -16,5 +16,10 @@ posts_btn: Posts
 imprint_btn: Impressum
 name_badge: "Ein Artikel von"
 
-# Build settings
+# build settings
 markdown: kramdown
+
+# exclude files
+exclude:
+  - LICENSE
+  - README.md
