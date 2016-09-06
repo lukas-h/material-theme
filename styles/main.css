@@ -100,7 +100,7 @@ a{
     font-family: 'Share Tech Mono', monospace;
 }
 .my-link{
-    font-size: 18px;
+    font-size: 18px !important;
 }
 .my-link:hover{
     background: #c9f6ff;
