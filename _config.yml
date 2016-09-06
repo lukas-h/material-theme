@@ -8,5 +8,13 @@ url: "http://himsel.me"
 twitter_username: lukashimsel
 github_username:  lukas-h
 
+# language settings
+close_btn: Ausblenden
+home_btn: Startseite
+projects_btn: Projekte
+posts_btn: Posts
+imprint_btn: Impressum
+name_badge: "Ein Artikel von"
+
 # Build settings
 markdown: kramdown
