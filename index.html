@@ -48,7 +48,7 @@ layout: default
   </ul>
 
   <div>
-    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}/a>
+    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
   </div>
 </div>
 
@@ -56,26 +56,15 @@ layout: default
 <div id="projects">
   <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
   <ul>
+    {% for project in site.data.projects %}
     <li>
-      <p class="my-item"><a href="https://github.com/lukas-h/toy-http" class="my-link">toy-http</a><br>
-        <span class="my-item-sub">Ein HTTP Server mit minimalem Footprint für statisches Filehosting.
-          </span>
-      </p>
-    </li>
-    <li>
-      <p class="my-item"><a href="https://bitbucket.org/snippets/lukashimsel/" class="my-link">Snippets</a><br>
-        <span class="my-item-sub">Code-Schnipsel und Experimente auf Bitbucket.
-        </span>
-      </p>
-    </li>
-    <li>
-      <p class="my-item"><a href="http://codefor.de/heilbronn/" class="my-link">Code For Heilbronn</a><br>
-        <span class="my-item-sub">
-        Open Data Initiative rund um die Stadt Heilbronn.
+      <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
+      <span class="my-item-sub">
+        {{ project.description }}
       </span>
-
       </p>
     </li>
+    {% endfor %}
   </ul>
   <div>
     <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
