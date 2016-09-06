@@ -1,0 +1,83 @@
+---
+layout: default
+---
+<script>
+        var hide_lists = function(cb){
+            $('#posts').fadeOut(300);
+            $('#projects').fadeOut(300);
+            $('#posts-btn').removeClass('disabled');
+            $('#projects-btn').removeClass('disabled');
+        }
+        var show_projects = function(){
+            $('#posts-btn').removeClass('disabled');
+            $('#posts').fadeOut(300, function(){
+                $('#projects').fadeIn(300);
+            });
+            $('#projects-btn').addClass('disabled');
+        }
+        var show_posts = function(){
+            $('#projects-btn').removeClass('disabled');
+            $('#projects').fadeOut(function(){
+                $('#posts').fadeIn(300);
+            });
+            $('#posts-btn').addClass('disabled');
+        }
+</script>
+<div>
+  <a id="posts-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_posts();">Blog</a>
+  <a id="projects-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_projects();">Projekte</a>
+</div>
+<div id="posts">
+
+  <h2 class="my-mini-heading">Posts</h2>
+
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <p class="my-item">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
+        <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </p>
+    </li>
+    {% endfor %}
+    <li>
+      <p class="my-item">
+        <a href="{{ " /feed.xml " | prepend: site.baseurl }}" class="my-link"><i class="fa fa-rss" aria-hidden="true"></i> RSS</a><br>
+        <span class="my-item-sub">Feed abbonieren!</span>
+    </li>
+  </ul>
+
+  <div>
+    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">Ausblenden</a>
+  </div>
+</div>
+
+
+<div id="projects">
+  <h2 class="my-mini-heading">Projekte</h2>
+  <ul>
+    <li>
+      <p class="my-item"><a href="https://github.com/lukas-h/toy-http" class="my-link">toy-http</a><br>
+        <span class="my-item-sub">Ein HTTP Server mit minimalem Footprint für statisches Filehosting.
+          </span>
+      </p>
+    </li>
+    <li>
+      <p class="my-item"><a href="https://bitbucket.org/snippets/lukashimsel/" class="my-link">Snippets</a><br>
+        <span class="my-item-sub">Code-Schnipsel und Experimente auf Bitbucket.
+        </span>
+      </p>
+    </li>
+    <li>
+      <p class="my-item"><a href="http://codefor.de/heilbronn/" class="my-link">Code For Heilbronn</a><br>
+        <span class="my-item-sub">
+        Open Data Initiative rund um die Stadt Heilbronn.
+      </span>
+
+      </p>
+    </li>
+  </ul>
+  <div>
+    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">Ausblenden</a>
+  </div>
+</div>

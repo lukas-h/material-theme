@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="left-align">
+
+  <h1 class="my-mini-heading">{{ page.title }}<br>
+    <span class="my-mini-heading-sub">
+    <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%b %-d, %Y" }}
+      </time>
+    </span></h1>
+
+  <div class="my-text-body">
+    {{ content }}
+  </div>
+  {% if page.author %}
+  <p class="my-text-author">Ein Artikel von {{ page.author }}</p>
+  {% endif %}
+  <div class="center-align">
+  <a class="waves-effect waves-teal btn-flat btn-large" href="{{ site.baseurl }}/">Startseite</a>
+  </div>
+</article>

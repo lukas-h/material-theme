@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="container">
+      <div class="section my-section">
+        <a class="my-name" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <p class="my-description">
+          {{ site.about }}
+          <br>
+          <i class="fa fa-map-marker"></i> {{ site.location }}
+        </p>
+        <div class="row">
+          <div class="col s12 m8 offset-m2 l6 offset-l3">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

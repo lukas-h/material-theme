@@ -1,0 +1,12 @@
+title: "Lukas Himsel"
+description: "Lukas Himsels persönliche Website"
+about: "Schüler, der gerne Klavier spielt, Joggen geht und <i>versucht</i>, Websites und Programme zu entwickeln."
+location: "Deutschland, Kitzingen"
+email: lukas@himsel.me
+baseurl: ""
+url: "http://himsel.me"
+twitter_username: lukashimsel
+github_username:  lukas-h
+
+# Build settings
+markdown: kramdown

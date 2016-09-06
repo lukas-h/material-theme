@@ -1,0 +1,10 @@
+<footer class="my-footer z-depth-2">
+    <p>
+        <a class="waves-effect waves-teal btn-flat my-imprint-link" href="{{ "/imprint.html" | prepend: site.baseurl }}">Impressum</a>
+        {% if site.email %}<a href="mailto:{{ site.email }}" class="waves-effect waves-teal btn-flat my-mail-link"><i class="fa fa-envelope-o"></i></a>{% endif %}
+        {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" class="waves-effect waves-teal btn-flat my-github-link"><i class="fa fa-github"></i></a>{% endif %}
+        {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" class="waves-effect waves-teal btn-flat my-twitter-link"><i class="fa fa-twitter"></i></a>{% endif %}
+    </p>
+</footer>
+<script type="text/javascript" src="{{ "/styles/jquery.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/styles/mlz.js" | prepend: site.baseurl }}"></script>
