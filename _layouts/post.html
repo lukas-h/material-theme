@@ -3,12 +3,12 @@ layout: default
 ---
 <article class="left-align">
 
-  <h1 class="my-mini-heading">{{ page.title }}<br>
+  <h2 class="my-mini-heading">{{ page.title }}<br>
     <span class="my-mini-heading-sub">
     <time datetime="{{ page.date | date_to_xmlschema }}">
         {{ page.date | date: "%b %-d, %Y" }}
       </time>
-    </span></h1>
+    </span></h2>
 
   <div class="my-text-body">
     {{ content }}
