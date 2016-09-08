@@ -6,11 +6,21 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="robots" content="index,follow">
-    
+
+    <meta property="og:image" content="{{ site.url }}/images/favicon.png" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+
+
+    <link href="{{ "/atom.xml" | prepend: site.baseurl }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ "/feed.xml" | prepend: site.baseurl }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+
+    <link rel="shortcut icon" href="{{ " /images/favicon.png " | prepend: site.baseurl }}">
 
     <link rel="stylesheet" href="{{ "/styles/mlz.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/styles/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/styles/fa/css/font-awesome.min.css" | prepend: site.baseurl }}">
-    <link rel="shortcut icon" href="{{ "/images/favicon.png" | prepend: site.baseurl }}" type="image/png">
 
 </head>

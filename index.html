@@ -42,8 +42,8 @@ layout: default
     {% endfor %}
     <li>
       <p class="my-item">
-        <a href="{{ " /feed.xml " | prepend: site.baseurl }}" class="my-link">RSS</a> <i class="fa fa-rss" aria-hidden="true"></i> <a href="{{ " /rss.xml " | prepend: site.baseurl }}" class="my-link">ATOM</a><br>
-        <span class="my-item-sub">{{ site.rss_badge }}</span>
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="my-link">RSS</a> / <a href="{{ "/atom.xml" | prepend: site.baseurl }}" class="my-link">ATOM</a><br>
+        <span class="my-item-sub"><i class="fa fa-rss" aria-hidden="true"></i> {{ site.rss_badge }}</span>
     </li>
   </ul>
 
