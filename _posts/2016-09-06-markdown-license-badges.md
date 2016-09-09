@@ -2,7 +2,7 @@
 layout: post
 title:  "Markdown License Badges"
 date:   2016-09-06 13:04:00 +0200
-categories: english markdown
+tags: ['english', 'markdown']
 author: "Lukas Himsel"
 ---
 I am a person who spends for every hour of coding the same amount of time on creating READMEs

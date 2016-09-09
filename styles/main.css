@@ -238,6 +238,11 @@ a{
      font-family: 'Share Tech Mono', monospace;
      font-size: 12px;
 }
+.my-tag{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 15;
+    color: #4db6ac;
+}
 #projects, #posts{
     display: none;
 }

@@ -2,7 +2,7 @@
 layout: post
 title:  "Des armen Apostrophus‘ täglich Leid"
 date:   2016-09-05 21:03:00 +0200
-categories: deutsch apostroph
+tags: ['deutsch', 'apostroph']
 author: "Stephan Krückel"
 ---
 

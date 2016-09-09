@@ -2,7 +2,7 @@
 layout: post
 title:  "Liste der besten Konzertflügel"
 date:   2016-09-05 22:13:00 +0200
-categories: deutsch musik piano
+tags: ['deutsch', 'musik', 'piano']
 author: "Lukas Himsel"
 ---
 Diese Liste beinhaltet fast alle Konzertflügel und Semi-Konzertflügel von fast allen Klaviermanufakturen auf der Welt.

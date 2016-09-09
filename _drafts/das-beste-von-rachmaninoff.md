@@ -2,7 +2,7 @@
 layout: post
 title:  "Das Beste von Rachmaninoff"
 date:   2016-09-07 13:04:00 +0200
-categories: deutsch musik piano
+tags: ['deutsch', 'musik', 'piano']
 author: "Lukas Himsel"
 ---
 Wie viele, die mich näher kennen, wissen, bin ich seit einiger Zeit ein großer Fan
