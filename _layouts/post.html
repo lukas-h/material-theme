@@ -14,22 +14,30 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.author %}
-  <p class="my-text-author">{{ site.name_badge }} {{ page.author }}</p>
-  {% endif %}
-
-  {% if page.tags %}
-    <p>
+  <p class="center-align my-text-author">
+    {% if page.author %}
+      <span>{{ site.name_badge }} {{ page.author }}</span>
+    {% endif %}
+    
+    {% if page.tags %}
       <i class="fa fa-tags" aria-hidden="true"></i>
       {% for tag in page.tags %}
         <span class="my-tag">{{ tag }}</span>&ensp;
       {% endfor %}
-    </p>
-  {% endif %}
+    {% endif %}
+  </p>
 
   <div class="center-align">
-  {% if page.previous.url %}<a class="waves-effect waves-teal btn-flat btn-large my-thin-btn" href="{{ page.previous.url | prepend: site.baseurl }}"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>{% endif %}
+  {% if page.next.url %}
+    <a class="waves-effect waves-teal btn-flat btn-large my-thin-btn" href="{{ page.next.url | prepend: site.baseurl }}"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+  {% else %}
+    <a class="waves-effect waves-teal btn-flat btn-large my-thin-btn disabled"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+  {% endif %}
   <a class="waves-effect waves-teal btn-flat btn-large" href="{{ site.baseurl }}/">{{ site.home_btn }}</a>
-  {% if page.next.url %}<a class="waves-effect waves-teal btn-flat btn-large my-thin-btn" href="{{ page.next.url | prepend: site.baseurl }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>{% endif %}
+  {% if page.previous.url %}
+    <a class="waves-effect waves-teal btn-flat btn-large my-thin-btn" href="{{ page.previous.url | prepend: site.baseurl }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+  {% else %}
+        <a class="waves-effect waves-teal btn-flat btn-large my-thin-btn disabled"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+  {% endif %}
   </div>
 </article>
