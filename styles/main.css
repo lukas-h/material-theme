@@ -239,7 +239,7 @@ a{
 }
 .my-tag{
     font-family: 'Share Tech Mono', monospace;
-    font-size: 15;
+    font-size: 13px;
     color: #4db6ac;
 }
 #projects, #posts{
