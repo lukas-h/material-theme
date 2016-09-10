@@ -59,7 +59,7 @@ layout: default
     {% for project in site.data.projects %}
     <li>
       <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
-      <span class="my-item-sub">
+        <span class="my-item-sub">
         {{ project.description }}
       </span>
       </p>
@@ -70,3 +70,40 @@ layout: default
     <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
   </div>
 </div>
+
+<noscript>
+  <div id="posts-noscript">
+
+    <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
+
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <p class="my-item">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
+          <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </p>
+      </li>
+      {% endfor %}
+      <li>
+        <p class="my-item">
+          <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="my-link">RSS</a> / <a href="{{ "/atom.xml" | prepend: site.baseurl }}" class="my-link">ATOM</a><br>
+          <span class="my-item-sub"><i class="fa fa-rss" aria-hidden="true"></i> {{ site.rss_badge }}</span>
+      </li>
+    </ul>
+  </div>
+  <div id="projects-noscript">
+    <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
+    <ul>
+      {% for project in site.data.projects %}
+      <li>
+        <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
+          <span class="my-item-sub">
+        {{ project.description }}
+      </span>
+        </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</noscript>

@@ -1,5 +1,5 @@
 title: "Lukas Himsel"
-description: "Lukas Himsels persönliche Website"
+description: "Lukas Himsels persönliche Website mit Themen wie Musik, Klaviere, Open-Data, Open-Source und Webprojekten."
 about: "Schüler, der gerne Klavier spielt, Joggen geht und <i>versucht</i>, Websites und Programme zu entwickeln."
 location: "Deutschland, Kitzingen"
 email: lukas@himsel.me
@@ -9,6 +9,7 @@ twitter_username: lukashimsel
 github_username:  lukas-h
 
 # language settings
+isolang: de
 close_btn: "Ausblenden"
 home_btn: "Startseite"
 projects_btn: "Projekte"
