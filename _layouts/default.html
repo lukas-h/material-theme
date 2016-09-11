@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ site.isolang }}">
+<html lang="{{ site.isolang }}" itemscope itemtype="http://schema.org/WebPage">
   {% include head.html %}
   <body>
     <div class="container">
-      <div class="section my-section">
-        <h1><a class="my-name" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-        <p class="my-description">
+      <div class="section my-section" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
+        <h1 itemprop="headline"><a class="my-name" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+        <p class="my-description" itemprop="text">
           {{ site.about }}
           <br>
           <i class="fa fa-map-marker"></i> {{ site.location }}

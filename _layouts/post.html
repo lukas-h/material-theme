@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<article class="left-align">
+<article class="left-align" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h2 class="my-mini-heading">{{ page.title }}<br>
+  <h2 class="my-mini-heading" itemprop="name headline">{{ page.title }}<br>
     <span class="my-mini-heading-sub">
-    <time datetime="{{ page.date | date_to_xmlschema }}">
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {{ page.date | date: "%b %-d, %Y" }}
     </time>
     </span></h2>
@@ -14,9 +14,9 @@ layout: default
     {{ content }}
   </div>
 
-  <p class="center-align my-text-author">
+  <p class="center-align my-text-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
     {% if page.author %}
-      <span>{{ site.name_badge }} {{ page.author }}</span>
+      <span itemprop="name">{{ site.name_badge }} {{ page.author }}</span>
     {% endif %}
     <br>
     {% if page.tags %}
