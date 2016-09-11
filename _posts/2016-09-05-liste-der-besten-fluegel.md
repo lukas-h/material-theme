@@ -2,11 +2,11 @@
 layout: post
 title:  "Liste der besten Konzertflügel"
 date:   2016-09-05 22:13:00 +0200
-tags: ['deutsch', 'musik', 'piano']
+tags: ['deutsch', 'Musik', 'Piano', 'Flügel']
 author: "Lukas Himsel"
 ---
-Diese Liste beinhaltet fast alle Konzertflügel und Semi-Konzertflügel von fast allen Klaviermanufakturen auf der Welt.
-Sie enthält die größten, schönsten und besten Modelle ab einer Größe von 2,20 Metern.
+Diese Liste beinhaltet fast alle Konzertflügel (auf englisch grand piano) und Semi-Konzertflügel von fast allen Klaviermanufakturen auf der Welt.
+Sie enthält die größten, schönsten und besten Klaviermodelle ab einer Größe von 2,20 Metern.
 Die „kleineren“ Flügel sind mit `(Semi-Konzert)` markiert, damit sie schnell erkannt werden können.
 
 ## August Förster
