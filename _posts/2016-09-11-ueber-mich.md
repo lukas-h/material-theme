@@ -6,7 +6,7 @@ tags: ['deutsch', 'Über', 'Infos', 'Projekte', 'News']
 author: "Lukas Himsel"
 ---
 
-Ich bin ein Schüler aus dem Raum Kitzingen, bin 16 Jahre alt und liebe es Klavier zu spielen und multimediale Projekte umzusetzen.  
+Ich bin ein Schüler aus dem Raum Kitzingen, bin 16 Jahre alt und liebe es, Klavier zu spielen und multimediale Projekte umzusetzen.  
 
 Ich lebe erst seit kurzem im fränkischen Raum, davor war ich mein ganzes Leben in Raum Stuttgart bei Heilbronn. In der alten Region habe ich mich
 an mehreren [Projekten](https://github.com/opendata-heilbronn) rund um Open-Data beteiligt.  
@@ -17,7 +17,7 @@ Ich spiele meist klassische Musik; hören tu ich aber auch neuere Musik.
 Im Blog werden sich einige Artikel zum Thema Klavier und Musik finden.  
 
 Ich werde mich auch um Artikel über meine Projekte,
-Webtechnologien, Linux, BSD, C, Open-Source, Open-Data und vielen weiteren Themen bemühen.
+Webtechnologien, Linux, BSD, C, Open-Source, Open-Data und viele weitere Themen bemühen.
 Wenn ich mal Zeit finde, schreibe ich auch ein paar Zeilen über dies und das. 
 Ganz vergessen; Material Design ist etwas, dass ich seit neuerer Zeit sehr feiere.
 
@@ -28,7 +28,7 @@ lukas (at) himsel.me
 
 ## Spenden Sie
 Falls Sie mir etwas spenden wollen, mein Bitcoin Wallet ist empfangsbereit ;)  
-Wenn ich wirklich eine Spenden bekomme, investiere ich sie wahrscheinlich in Noten.  
+Wenn ich wirklich eine Spenden bekomme, investiere ich sie wahrscheinlich in Klaviernoten.  
 [Wallet: `1Ek6PVmqp4rakqoR3UFrcUeWK82qNzyZWe`](bitcoin:1Ek6PVmqp4rakqoR3UFrcUeWK82qNzyZWe)  
 
 ## Über diese Seite
