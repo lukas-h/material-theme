@@ -26,13 +26,7 @@ Wenn man mit mir Kontakt aufnehmen will, dann am besten über Twitter oder per E
 Telefon oder Instant-Messaging kann dann geklärt werden.  
 lukas (at) himsel.me  
 
-## Spenden Sie
-Falls Sie mir etwas spenden wollen, mein Bitcoin Wallet ist empfangsbereit ;)  
-Wenn ich wirklich eine Spenden bekomme, investiere ich sie wahrscheinlich in Klaviernoten.  
-[Wallet: `1Ek6PVmqp4rakqoR3UFrcUeWK82qNzyZWe`](bitcoin:1Ek6PVmqp4rakqoR3UFrcUeWK82qNzyZWe)  
-
 ## Über diese Seite
 Diese Seite ist mit Jekyll und Materialize CSS umgesetzt.
 Die Jekyll Theme ist unter der MIT Lizenz veröffentlicht und kann
-frei verwendet werden, kann auch voll angepasst werden.  
-[Source auf Github](https://github.com/lukas-h/lukas-h.github.io)
+frei verwendet werden, kann auch voll angepasst werden. [Benutz meine Theme!](http://himsel.me/2016/09/19/use-my-jekyll-theme.html)  
