@@ -6,7 +6,8 @@ tags: ['english', 'jekyll', 'theme']
 author: "Lukas Himsel"
 ---
 
-## 1. Clone or download this repository.
+If you want to use my website theme, follow the instructions and host it yourself. Easily setup as a Github page. To add pages (for example a portfolio, an extra about page, and so on), you need to link them to the `index.html` manually. Required to configure in this dimensions is a bit of html and jekyll know-how, read [the Jekyll docs](http://jekyllrb.com/docs/pages/). Other things are easy to edit and configure, even without much jekyll experience.
+## 1. Get the sources
 
 #### 1.1 Clone
 Clone the repository from github:  
@@ -25,13 +26,16 @@ And most important: change the site's URL!
 
 - Change the icon `images/favicon.png`.  
 
-- Remove or edit the `CNAME` file that it does not point anymore to himsel.me.  
+- Remove or edit the `CNAME` file that it does not point anymore to *himsel.me*.  
 
 - Don't forget the `README.md`.  
 
 ## 3. Start writing posts
 Replace the existing example post and then add your own!  
-[Jekyll Docs: Writing posts](http://jekyllrb.com/docs/posts/)
+Have a look at the [Jekyll docs](http://jekyllrb.com/docs/posts/)
+about how to write blog posts.  
+To add tags to your posts, look into the example, you'll see that there is
+a line starting with `tags:`. Add your keywords there. 
 
 ## 4. You're done
 Feel free to give a star or feedback! [See the Github Project](https://github.com/lukas-h/lukas-h.github.io)  
