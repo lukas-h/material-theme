@@ -7,6 +7,7 @@ author: "Lukas Himsel"
 ---
 
 If you want to use my website theme, follow the instructions and host it yourself. Easily setup as a Github page. To add pages (for example a portfolio, an extra about page, and so on), you need to link them to the `index.html` manually. Required to configure in this dimensions is a bit of html and jekyll know-how, read [the Jekyll docs](http://jekyllrb.com/docs/pages/). Other things are easy to edit and configure, even without much jekyll experience.
+
 ## 1. Get the sources
 
 #### 1.1 Clone
@@ -38,4 +39,5 @@ To add tags to your posts, look into the example, you'll see that there is
 a line starting with `tags:`. Add your keywords there. 
 
 ## 4. You're done
-Feel free to give a star or feedback! [See the Github Project](https://github.com/lukas-h/lukas-h.github.io)  
+Take a stop on the Github project page. Feel free to give a star or feedback, share it with others!  
+[See the Github Project](https://github.com/lukas-h/lukas-h.github.io)  
