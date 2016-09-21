@@ -9,7 +9,7 @@ src:local('Material Icons'),local(MaterialIcons-Regular),url(fonts/icons.woff2) 
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v17/2fcrYFNaTjcS6g4U3t-Y5StnKWgpfO2iSkLzTz-AABg.ttf) format('truetype');
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(fonts/icons.ttf) format('truetype');
 }
 
 .material-icons {
