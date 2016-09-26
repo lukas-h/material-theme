@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Neueröffnung bei Seiler"
+title:  "Neueröffnung der Verkaufsräume bei Seiler"
 date:   2016-09-26 17:30:00 +0200
 tags: ['deutsch', 'Seiler', 'Piano', 'Flügel']
 author: "Lukas Himsel"
