@@ -9,7 +9,7 @@ twitter_username: your-name
 github_username:  your-name
 
 # google analytics tracking code, please change the value
-g_analytics: "UA-72004048-3"
+g_analytics: ""
 
 # language settings
 isolang: en
