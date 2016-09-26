@@ -258,6 +258,6 @@ Hergestellt in Südkorea (Incheon)
 #### Albert Weber
 
 ![]({{ site.baseurl }}/images/2016-09-05-liste-der-besten-fluegel/weber.png)  
-Hergestellt von Young Chang 
+Hergestellt von Young Chang  
 [Albert Weber AW-228](http://weberpiano.com/ublminxportfolios/aw228/)(Semi-Konzert)  
 [Albert Weber AW-275](http://weberpiano.com/ublminxportfolios/aw275/)

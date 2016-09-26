@@ -6,11 +6,15 @@ tags: ['english', 'jekyll', 'theme']
 author: "Lukas Himsel"
 ---
 
-If you want to use my website theme, follow the instructions and host it yourself. Easily setup as a Github page. To add pages (for example a portfolio, an extra about page, and so on), you need to link them to the `index.html` manually. Required to configure in this dimensions is a bit of html and jekyll know-how, read [the Jekyll docs](http://jekyllrb.com/docs/pages/). Other things are easy to edit and configure, even without much jekyll experience.
-
 ## Hints
-Please use the branch *theme* of the repo, please not the *master* theme.
-If you want to use the *master* branch (for example, you simply fork the website), please remove/reedit the google analytics tracking ID from `_config.yml`. Please remove the CNAME or change the domain too.
+
+If you want to use my jekyll theme, follow the instructions and host it yourself. Easily setup as a Github page.  
+
+To add pages (for example a portfolio, an extra about page, and so on), you need to link them to the `index.html` manually. Required to configure in this dimensions is a bit of html and jekyll know-how. Reading the [Jekyll docs](http://jekyllrb.com/docs/pages/) helps. All other things are easy to edit and configure, even without much jekyll experience.  
+
+Please use the branch *theme* of the repo, please not the *master* branch.
+If you want to use the *master* branch (for example, you simply fork the website), please remove/reedit the google analytics tracking ID from `_config.yml`. Please remove the `CNAME` (or change the domain) too.
+
 
 ## 1. Get the sources
 
