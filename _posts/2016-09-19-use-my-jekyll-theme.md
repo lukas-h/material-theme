@@ -8,6 +8,10 @@ author: "Lukas Himsel"
 
 If you want to use my website theme, follow the instructions and host it yourself. Easily setup as a Github page. To add pages (for example a portfolio, an extra about page, and so on), you need to link them to the `index.html` manually. Required to configure in this dimensions is a bit of html and jekyll know-how, read [the Jekyll docs](http://jekyllrb.com/docs/pages/). Other things are easy to edit and configure, even without much jekyll experience.
 
+## Hints
+Please use the branch *theme* of the repo, please not the *master* theme.
+If you want to use the *master* branch (for example, you simply fork the website), please remove/reedit the google analytics tracking ID from `_config.yml`. Please remove the CNAME or change the domain too.
+
 ## 1. Get the sources
 
 #### 1.1 Clone
@@ -21,7 +25,7 @@ Get the branch *theme* from my repository:
 
 ## 2. Configure
 - Replace all the configuration in `_config.yml` and `_data/projects.yml` by your own data. Change the name, email address, configure your your language settings.  
-And most important: change the site's URL!  
+And most important: change the site's URL! Optionally add your google analytics ID.
 
 - Put your address and legal info into `imprint.html`.  
 

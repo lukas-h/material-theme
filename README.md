@@ -8,6 +8,10 @@ Expect mostly german posts but also not so less in english.
 
 ### Use this Jekyll theme
 [Read the Article about it!](http://himsel.me/2016/09/19/use-my-jekyll-theme.html)
+If you are too busy these read 20 lines, then please be sure you do this:
+- change the site's url in `_config.yml`  
+- change the analytics ID  
+- remove / reedit the `CNAME` file.  
 
 ####License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
