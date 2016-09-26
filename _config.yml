@@ -8,6 +8,9 @@ url: "http://himsel.me" # replace by your site's url
 twitter_username: your-name
 github_username:  your-name
 
+# google analytics tracking code, please change the value
+g_analytics: "UA-72004048-3"
+
 # language settings
 isolang: en
 close_btn: "Close"
