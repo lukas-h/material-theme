@@ -7,8 +7,8 @@ Expect mostly german posts but also not so less in english.
 [Hit the page!](http://himsel.me)
 
 ### Use this Jekyll theme
-[Read the Article about it!](http://himsel.me/2016/09/19/use-my-jekyll-theme.html)
-If you are too busy these read 20 lines, then please be sure you do this:
+[Read the Article about it!](http://himsel.me/2016/09/19/use-my-jekyll-theme.html)  
+If you are too busy to read these few lines, then please do this:  
 - change the site's url in `_config.yml`  
 - change the analytics ID  
 - remove / reedit the `CNAME` file.  
