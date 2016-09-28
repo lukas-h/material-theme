@@ -11,8 +11,7 @@ Expect mostly german posts but also not so less in english.
 If you are too busy to read these few lines, then please do this:  
 - change the site's url in `_config.yml`  
 - remove / reedit the `CNAME` file.  
-
-# CHANGE THE GOOGLE ANALYTICS ID !!!
+- **CHANGE THE GOOGLE ANALYTICS ID**
 You *have to* change the value of `g_analytics` in _config.yml.
 
 ####License
