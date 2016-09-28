@@ -15,6 +15,10 @@ To add pages (for example a portfolio, an extra about page, and so on), you need
 Please use the branch *theme* of the repo, please not the *master* branch.
 If you want to use the *master* branch (for example, you simply fork the website), please remove/reedit the google analytics tracking ID from `_config.yml`. Please remove the `CNAME` (or change the domain) too.
 
+# CHANGE THE GOOGLE ANALYTICS ID !!!
+You *have to* change the value of `g_analytics` in _config.yml.
+
+
 #### Theme features  
 - Projects showcase  
 - RSS and ATOM feed  
