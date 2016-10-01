@@ -3,7 +3,7 @@ description: "Things I Never Said"
 about: "Hey, I never said that."
 location: "Ann Arbor, Michigan"
 email: elliot.charney@gmail.com
-baseurl: "/blog/"
+baseurl: "/blog"
 url: "http://elliotcharney.com"
 twitter_username: GETelliot
 github_username:  shonin
