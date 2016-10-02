@@ -1,1 +1,4 @@
 .vscode/
+.DS_Store
+_site/
+_drafts/

@@ -115,7 +115,7 @@ a{
 .my-section{
     text-align: center;
     margin-bottom: 45px;
-    margin-top: 45px;
+    margin-top: 25px;
 }
 .my-name{
     font-family: 'Rubik One', sans-serif;
@@ -229,7 +229,7 @@ a{
     color: #ea8462;
 }
 .my-item{
-     font-family: 'Libre Baskerville', serif;    
+     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -247,4 +247,9 @@ a{
 }
 img{
     max-width: 100%;
+}
+
+.not-home-logo {
+  width: 200px;
+  margin-bottom: 20px;
 }

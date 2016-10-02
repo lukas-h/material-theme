@@ -1,11 +1,11 @@
-- name: project 1
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+- name: JSTOR
+  link: "http://www.jstor.org"
+  description: "I work here as a Django developer"
 
-- name: project 2
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+- name: The Drinking Gourd
+  link: "http://drinkinggourd.herokuapp.com/"
+  description: "A Python RSS reader behind a fancy ui for a Buddhist Podcast"
 
-- name: project 3
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+- name: The Brent Haas Experience
+  link: "http://www.brenthaas.com"
+  description: "I developed, Ucef Hanjani of Ceft and Company designed."
