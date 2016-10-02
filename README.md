@@ -1,19 +1,43 @@
-# My personal website
-:point_right: http://himsel.me :point_left:
+# elliotcharney.com
 
-### Checkout my blog
-You will find a number of topcs: music, piano, open data and more or less some nerd topics.  
-Expect mostly german posts but also not so less in english.  
-[Hit the page!](http://himsel.me)
+*explained in haiku*
 
-### Use this Jekyll theme
-[Read the Article about it!](http://himsel.me/2016/09/19/use-my-jekyll-theme.html)  
-If you are too busy to read these few lines, then please do this:  
-- change the site's url in `_config.yml`  
-- remove / reedit the `CNAME` file.  
-- **CHANGE THE GOOGLE ANALYTICS ID**
-You *have to* change the value of `g_analytics` in _config.yml.
+### What is this?
 
-####License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
-This theme is distributed under the MIT License.
+> I built a website.  
+the url is my name.  
+read it; if you want.
+
+### What's the tech stack?
+
+> It's using [Jekyll](https://jekyllrb.com/):  
+Ruby, Markdown, and templates.  
+⌘C and V.
+
+### Where is it hosted?
+
+> On a GitHub Page,  
+That's what's with the repo name.  
+To publish: `git push`
+
+### Thank you's
+> @lukas-h is nice,  
+for open sourcing his [site](http://himsel.me/).  
+Thank you, I love it.
+
+### License
+> MIT License,  
+Is the one I have chosen,  
+But mostly pasted:
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+### Really?
+
+> Really? Yes I did.  
+This is just hacked together.   
+I'm not good at computers  
+
+(or haikus)
+
+![](http://s2.quickmeme.com/img/c7/c76407022c6d2e0e5813d6e2cc8c2c03cd8890f847d67ab9517ae7de1df8287d.jpg)
