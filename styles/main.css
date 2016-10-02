@@ -96,14 +96,6 @@ src:local('Material Icons'),local(MaterialIcons-Regular),url(fonts/icons.woff2) 
   font-weight: 400;
   src: local('Rubik One Regular'), local('RubikOne-Regular'), url(fonts/rbo.ttf) format('truetype');
 }
-
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Raleway Light'), local('Raleway-Light'), url(fonts/Raleway-Light.ttf) format('truetype');
-}
-
 a{
     font-family: 'Share Tech Mono', monospace;
 }
@@ -123,14 +115,12 @@ a{
 .my-section{
     text-align: center;
     margin-bottom: 45px;
-    margin-top: 25px;
+    margin-top: 45px;
 }
 .my-name{
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+    font-family: 'Rubik One', sans-serif;
+    font-size: 45px;
     color: black;
-    text-transform: uppercase;
-    letter-spacing: 10px;
 }
 .my-name:hover{
     color: black;
@@ -159,7 +149,7 @@ a{
     font-family: 'Share Tech Mono', monospace;
     font-size: 15;
     color: #4db6ac;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 .my-footer{
     position:fixed;
@@ -239,7 +229,7 @@ a{
     color: #ea8462;
 }
 .my-item{
-     font-family: 'Libre Baskerville', serif;
+     font-family: 'Libre Baskerville', serif;    
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -257,13 +247,4 @@ a{
 }
 img{
     max-width: 100%;
-}
-
-.not-home-logo {
-  width: 200px;
-  margin-bottom: 20px;
-}
-
-.my-headline {
-  margin-top: 0px;
 }

@@ -1,6 +1,5 @@
 <footer class="my-footer z-depth-2">
     <p>
-
         <a class="waves-effect waves-teal btn-flat my-imprint-link" href="{{ "/imprint.html" | prepend: site.baseurl }}">{{ site.imprint_btn }}</a>
         {% if site.email %}
         <a href="mailto:{{ site.email }}" class="waves-effect waves-teal btn-flat my-mail-link"><i class="fa fa-envelope-o"></i></a>
@@ -16,7 +15,7 @@
 <script type="text/javascript" src="{{ "/styles/jquery.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript" src="{{ "/styles/mlz/mlz.js" | prepend: site.baseurl }}"></script>
 {% if site.g_analytics %}
-<!-- <script>
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -25,5 +24,5 @@
   ga('create', '{{ site.g_analytics }}', 'auto');
   ga('send', 'pageview');
 
-</script> -->
+</script>
 {% endif %}

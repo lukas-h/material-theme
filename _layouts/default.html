@@ -4,21 +4,12 @@
   <body>
     <div class="container">
       <div class="section my-section" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/WebPageElement">
-
-        {% if page.path == 'index.html' %}
-          <h1 class="my-headline" itemprop="headline"><a class="my-name" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-          <img width="200px" src="{{ site.baseurl }}/images/rakusu.jpg">
-          <p class="my-description" itemprop="text">
-            {{ site.about }}
-            <br>
-            <i class="fa fa-map-marker"></i> {{ site.location }}
-          </p>
-        {% else %}
-          <a href="{{ site.baseurl }}/">
-            <img class="not-home-logo" src="{{ site.baseurl }}/images/rakusu.jpg">
-          </a>
-        {% endif %}
-
+        <h1 itemprop="headline"><a class="my-name" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+        <p class="my-description" itemprop="text">
+          {{ site.about }}
+          <br>
+          <i class="fa fa-map-marker"></i> {{ site.location }}
+        </p>
         <div class="row">
           <div class="col s12 m8 offset-m2 l6 offset-l3">
             {{ content }}
