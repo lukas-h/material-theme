@@ -1,6 +1,6 @@
 title: "Elliot Charney"
-description: "Things I Never Said"
-about: "Hey, I never said that."
+description: "A blog about web development, Django, Python, cats, and Zen."
+about: "Python, cats, and Zen."
 location: "Ann Arbor, Michigan"
 email: elliot.charney@gmail.com
 baseurl: ""
@@ -18,7 +18,7 @@ home_btn: "Home"
 projects_btn: "Projects"
 posts_btn: "Posts"
 imprint_btn: "About"
-name_badge: "an article by"
+name_badge: "a post by"
 rss_badge: "Subscribe feed!"
 
 # build settings
