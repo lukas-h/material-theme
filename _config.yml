@@ -4,6 +4,7 @@ about: "Schüler, der gerne Klavier spielt, Joggen geht und <i>versucht</i>, Web
 location: "Deutschland, Kitzingen"
 email: lukas@himsel.me
 baseurl: ""
+production_url: "http://himsel.me"
 url: "http://himsel.me"
 twitter_username: lukashimsel
 github_username:  lukas-h
