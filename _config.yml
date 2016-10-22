@@ -8,6 +8,7 @@ production_url: "http://himsel.me"
 url: "http://himsel.me"
 twitter_username: lukashimsel
 github_username:  lukas-h
+author: "Lukas Himsel"
 
 # google analytics tracking code, please change the value
 g_analytics: "UA-72004048-3"
