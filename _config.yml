@@ -8,6 +8,7 @@ url: "http://himsel.me" # replace by your site's url
 twitter_username: your-name
 github_username:  your-name
 author: "Lukas Himsel"
+disqus_shortname: 
 
 # google analytics tracking code, please change the value
 g_analytics: ""
@@ -38,7 +39,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     tab_width: 4
-    
+
 # third party gems
 gems:
   - jekyll-paginate
@@ -49,7 +50,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-gist
   - jemoji
-  
+
 # exclude files
 exclude:
   - LICENSE
