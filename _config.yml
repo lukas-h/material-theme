@@ -12,6 +12,9 @@ author: "Lukas Himsel"
 # google analytics tracking code, please change the value
 g_analytics: "UA-72004048-3"
 
+# add your disqus to enable comments
+disqus_shortname:
+
 # language settings
 isolang: de
 close_btn: "Ausblenden"
@@ -38,7 +41,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     tab_width: 4
-    
+
 # third party gems
 gems:
   - jekyll-paginate
@@ -49,7 +52,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-gist
   - jemoji
-  
+
 # exclude files
 exclude:
   - LICENSE
