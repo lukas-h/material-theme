@@ -26,6 +26,7 @@ You *have to* change the value of `g_analytics` in _config.yml.
 - SEO meta tags, *schema.org* structured data  
 - [twitter](https://dev.twitter.com/cards/getting-started) cards  
 - made with MaterializeCSS
+- Disqus comments  
 
 ## Setup
 
@@ -63,5 +64,5 @@ a line starting with `tags:`. Add your keywords there.
 ### 4. You're done  
 Take a stop on the Github project page. Feel free to give a star and share it with others!  
 You have questions, feedback or something to improve, mail me or open issues on github. Contributions are always welcome.  
-Thanks to them who have already helped to improve, especially [@varundey](https://github.com/varundey)!
-[See the Github Project](https://github.com/lukas-h/lukas-h.github.io)  
+Thanks to them who have already helped to improve, especially [@varundey](https://github.com/varundey)!  
+See the [Github Project](https://github.com/lukas-h/lukas-h.github.io)  
