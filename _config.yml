@@ -13,6 +13,9 @@ author: "Your Name"
 # google analytics tracking code, please change the value
 g_analytics: ""
 
+# add your disqus to enable comments
+disqus_shortname:
+
 # language settings
 isolang: en
 close_btn: "Close"
@@ -39,7 +42,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     tab_width: 4
-    
+
 # third party gems
 gems:
   - jekyll-paginate
@@ -50,7 +53,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-gist
   - jemoji
-  
+
 # exclude files
 exclude:
   - LICENSE
