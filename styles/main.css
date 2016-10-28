@@ -162,6 +162,14 @@ a{
     width: 100%;
     background: white;
     z-index: 2;
+    transition: transform 0.2s ease-in;
+    will-change: transform;
+}
+.headroom--pinned {
+  transform: translateY(0);
+}
+.headroom--unpinned {
+  transform: translateY(+100%);
 }
 .my-imprint-link{
     font-size: 8.5px;
@@ -229,7 +237,7 @@ a{
     color: #ea8462;
 }
 .my-item{
-     font-family: 'Libre Baskerville', serif;    
+     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     margin-bottom: 20px;
 }
