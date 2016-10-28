@@ -15,14 +15,15 @@ layout: default
     <li>
       <p class="my-item">
         <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
-        <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+          {{ post.content | strip_html | truncatewords: 20 }}
       </p>
     </li>
     {% endfor %}
     <li>
       <p class="my-item">
         <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="my-link">RSS</a> / <a href="{{ "/atom.xml" | prepend: site.baseurl }}" class="my-link">ATOM</a><br>
-        <span class="my-item-sub"><i class="fa fa-rss" aria-hidden="true"></i> {{ site.rss_badge }}</span>
+        <i class="fa fa-rss" aria-hidden="true"></i> {{ site.rss_badge }}
     </li>
   </ul>
 
@@ -38,9 +39,7 @@ layout: default
     {% for project in site.data.projects %}
     <li>
       <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
-        <span class="my-item-sub">
         {{ project.description }}
-      </span>
       </p>
     </li>
     {% endfor %}
