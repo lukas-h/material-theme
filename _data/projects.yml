@@ -2,6 +2,10 @@
   link: "https://github.com/lukas-h/toy-http"
   description: "Ein HTTP Server mit minimalem Footprint für statisches Filehosting."
 
+- name: calc
+  link: "https://github.com/lukas-h/calc"
+  description: "only some experiments to create a calculator for the console, works with mac and linux and other unix"
+
 - name: Snippets
   link: "https://bitbucket.org/snippets/lukashimsel/"
   description: "Code-Schnipsel und Experimente auf Bitbucket."
