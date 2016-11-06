@@ -1,29 +1,33 @@
-title: "Lukas Himsel"
-description: "Lukas Himsels persönliche Website mit Themen wie Musik, Klaviere, Open-Data, Open-Source und Webprojekten."
-about: "Schüler, der gerne Klavier spielt, Joggen geht und <i>versucht</i>, Websites und Programme zu entwickeln."
-location: "Deutschland, Kitzingen"
-email: lukas@himsel.me
+title: "Your Name"
+description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+about: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+location: "Your Region, Country"
+email: your-email@example.com
 baseurl: ""
-url: "http://himsel.me"
-twitter_username: lukashimsel
+
+url: "http://himsel.me" # replace by your site's url
+twitter_username: your-name
 github_username:  lukas-h
-author: "Lukas Himsel"
+author: "Your Name"
 
 # google analytics tracking code, please change the value
-g_analytics: "UA-72004048-3"
+g_analytics: ""
+
+# add your disqus to enable comments
+disqus_shortname:
 
 # add your disqus to enable comments
 disqus_shortname:
 
 # language settings
-isolang: de
-close_btn: "Ausblenden"
-home_btn: "Startseite"
-projects_btn: "Projekte"
+isolang: en
+close_btn: "Close"
+home_btn: "Home"
+projects_btn: "Projects"
 posts_btn: "Posts"
-imprint_btn: "Impressum"
-name_badge: "Ein Artikel von"
-rss_badge: "Feed abbonieren!"
+imprint_btn: "Imprint"
+name_badge: "an article by"
+rss_badge: "Subscribe feed!"
 
 # build settings
 markdown: kramdown

@@ -35,12 +35,11 @@ You *have to* change the value of `g_analytics` in _config.yml.
 #### 1.1 Clone
 
 Clone the repository from github:  
-[https://github.com/lukas-h/lukas-h.github.io.git](https://github.com/lukas-h/lukas-h.github.io.git)  
-Checkout the branch *theme*, by typing `git checkout theme`.
+[https://github.com/lukas-h/material-theme.git](https://github.com/lukas-h/lukas-h.github.io.git)  
 
 #### 1.2 download  
 Get the branch *theme* from my repository:  
-[https://github.com/lukas-h/lukas-h.github.io/archive/theme.zip](https://github.com/lukas-h/lukas-h.github.io/archive/theme.zip)  
+[https://github.com/lukas-h/material-theme/archive/gh-pages.zip](https://github.com/lukas-h/lukas-h.github.io/archive/theme.zip)  
 
 ### 2. Configure  
 - Replace all the configuration in `_config.yml` and `_data/projects.yml` by your own data. Change the name, email address, configure your your language settings.  
@@ -50,7 +49,7 @@ And most important: change the site's URL! Optionally add your google analytics 
 
 - Change the icon `images/favicon.png`.  
 
-- Remove or edit the `CNAME` file that it does not point anymore to *himsel.me*.  
+- Replace the domain name in the `robots.txt`
 
 - Don't forget the `README.md`.  
 
@@ -65,4 +64,4 @@ a line starting with `tags:`. Add your keywords there.
 Take a stop on the Github project page. Feel free to give a star and share it with others!  
 You have questions, feedback or something to improve, mail me or open issues on github. Contributions are always welcome.  
 Thanks to them who have already helped to improve, especially [@varundey](https://github.com/varundey)!  
-See the [Github Project](https://github.com/lukas-h/lukas-h.github.io)  
+See the [Github Project](https://github.com/lukas-h/material-theme)  
