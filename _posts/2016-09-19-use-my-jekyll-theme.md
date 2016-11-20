@@ -28,10 +28,10 @@ To add pages (for example a portfolio, an extra about page, and so on), you need
 #### 1.1 Clone
 
 Clone the repository from github:  
-https://github.com/lukas-h/material-theme.git  
+[https://github.com/lukas-h/material-theme.git](https://github.com/lukas-h/material-theme.git)   
 
 #### 1.2 or download  
-https://github.com/lukas-h/material-theme/archive/gh-pages.zip
+[https://github.com/lukas-h/material-theme/archive/gh-pages.zip](https://github.com/lukas-h/material-theme/archive/gh-pages.zip)  
 
 ### 2. Configure  
 - Replace all the configuration in `_config.yml` and `_data/projects.yml` by your own data. Change the name, email address, configure your your language settings.  
