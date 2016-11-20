@@ -10,14 +10,7 @@ author: "Lukas Himsel"
 
 If you want to use my jekyll theme, follow the instructions and host it yourself. Easily setup as a Github page.  
 
-To add pages (for example a portfolio, an extra about page, and so on), you need to link them to the `index.html` manually. Required to configure in this dimensions is a bit of html and jekyll know-how. Reading the [Jekyll docs](http://jekyllrb.com/docs/pages/) helps. All other things are easy to edit and configure, even without much jekyll experience.  
-
-Please use the branch *theme* of the repo, please not the *master* branch.
-If you want to use the *master* branch (for example, you simply fork the website), please remove/reedit the google analytics tracking ID from `_config.yml`. Please remove the `CNAME` (or change the domain) too.
-
-#### CHANGE THE GOOGLE ANALYTICS ID  
-You *have to* change the value of `g_analytics` in _config.yml.
-
+To add pages (for example a portfolio, an extra about page, and so on), you need to link them to the `index.html` manually. Required to configure in this dimensions is a bit of html and jekyll know-how. Reading the [Jekyll docs](http://jekyllrb.com/docs/pages/) could help. All other things are easy to edit and configure, even without much jekyll experience.  
 
 #### Theme features  
 - Projects showcase  
@@ -35,11 +28,10 @@ You *have to* change the value of `g_analytics` in _config.yml.
 #### 1.1 Clone
 
 Clone the repository from github:  
-[https://github.com/lukas-h/material-theme.git](https://github.com/lukas-h/lukas-h.github.io.git)  
+https://github.com/lukas-h/material-theme.git  
 
-#### 1.2 download  
-Get the branch *theme* from my repository:  
-[https://github.com/lukas-h/material-theme/archive/gh-pages.zip](https://github.com/lukas-h/lukas-h.github.io/archive/theme.zip)  
+#### 1.2 or download  
+https://github.com/lukas-h/material-theme/archive/gh-pages.zip
 
 ### 2. Configure  
 - Replace all the configuration in `_config.yml` and `_data/projects.yml` by your own data. Change the name, email address, configure your your language settings.  
@@ -63,5 +55,5 @@ a line starting with `tags:`. Add your keywords there.
 ### 4. You're done  
 Take a stop on the Github project page. Feel free to give a star and share it with others!  
 You have questions, feedback or something to improve, mail me or open issues on github. Contributions are always welcome.  
-Thanks to them who have already helped to improve, especially [@varundey](https://github.com/varundey)!  
+Thanks to them who have already [helped](https://github.com/lukas-h/material-theme/graphs/contributors) to improve, especially [@varundey](https://github.com/varundey)!  
 See the [Github Project](https://github.com/lukas-h/material-theme)  
