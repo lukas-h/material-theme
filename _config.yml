@@ -47,7 +47,7 @@ kramdown:
     tab_width: 4
 
 # third party gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
   - jemoji
