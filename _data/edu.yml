@@ -1,0 +1,9 @@
+- name: Postgraduate Diploma in Advanced Studies and Research
+  inst: Ashoka University
+  year: "2019"
+  cgpa: "3.73/4.0"
+  
+- name: BSc in Computer Science
+  inst: Ashoka University
+  year: "2018"
+  cgpa: "3.8/4.0"
