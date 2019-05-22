@@ -3,7 +3,7 @@ layout: default
 ---
 <script src="{{ "/styles/index.js" | prepend: site.baseurl }}"></script>
 <div>
-  <a id="cv-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_cv();">{{ site.cv_btn }}</a>
+  <a id="cv-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_cv();">CV</a>
   <a id="posts-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_posts();">{{ site.posts_btn }}</a>
   <a id="projects-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_projects();">{{ site.projects_btn }}</a>
 </div>
@@ -52,7 +52,7 @@ layout: default
 
 
 <div id="cv">
-  <h2 class="my-mini-heading">{{ site.cv_btn }}</h2>
+  <h2 class="my-mini-heading">CV</h2>
   <h5>Work Experience</h5>
 	<ul>
 	  {% for work in site.data.work %}
@@ -111,7 +111,7 @@ layout: default
     </ul>
   </div>
   <div id="cv-noscript">
-    <h2 class="my-mini-heading">{{ site.cv_btn }}</h2>
+    <h2 class="my-mini-heading">CV</h2>
 	<h5>Work Experience</h5>
 	<ul>
 	  {% for work in site.data.work %}
