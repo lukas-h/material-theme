@@ -60,6 +60,9 @@ layout: default
 	    <p class="my-item">{{work.name}} at {{work.org}}, {{work.date}}
 		{{work.desc}}
 		</p>
+	  </li>
+	  {% endfor %}
+	</ul>
 	<h5>Education</h5>
     <ul>
       {% for edu in site.data.edu %}
