@@ -53,14 +53,22 @@ layout: default
 
 <div id="cv">
   <h2 class="my-mini-heading">{{ site.cv_btn }}</h2>
-  <ul>
-    {% for edu in site.data.edu %}
-    <li>
-      <p class="my-item">{{edu.name}}, {{edu.inst}}, {{edu.year}}<br>
-      </p>
-    </li>
-    {% endfor %}
-  </ul>
+  <h5>Work Experience</h5>
+	<ul>
+	  {% for work in site.data.work %}
+	  <li>
+	    <p class="my-item">{{work.name}} at {{work.org}}, {{work.date}}<br>
+		{{work.desc}}
+		</p>
+	<h5>Education</h5>
+    <ul>
+      {% for edu in site.data.edu %}
+      <li>
+	    <p class="my-item">{{edu.name}}, {{edu.inst}}, {{edu.year}}<br>
+		</p>
+      </li>
+      {% endfor %}
+    </ul>
   <div>
     <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
   </div>
@@ -103,6 +111,13 @@ layout: default
   </div>
   <div id="cv-noscript">
     <h2 class="my-mini-heading">{{ site.cv_btn }}</h2>
+	<h5>Work Experience</h5>
+	<ul>
+	  {% for work in site.data.work %}
+	  <li>
+	    <p class="my-item">{{work.name}} at {{work.org}}, {{work.date}}<br>
+		{{work.desc}}
+		</p>
 	<h5>Education</h5>
     <ul>
       {% for edu in site.data.edu %}
