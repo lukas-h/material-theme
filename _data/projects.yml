@@ -1,9 +1,12 @@
-- name: project 1
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
-- name: project 2
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
-- name: project 3
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+- name: Shamir
+  link: "https://github.com/NishkaDG/Shamir"
+  description: "An implementation of Shamir's Secret Sharing Scheme."
+- name: Applebaum-Arkis
+  link: "https://github.com/NishkaDG/Applebaum-Arkis"
+  description: "An implementation of the secret sharing scheme developed by Applebaum and Arkis in 2017."
+- name: svd-recommender
+  link: "https://github.com/NishkaDG/svd-recommender"
+  description: "A ground-up implementation of a user-based recommendation system. Improves upon previous SVD algorithms."
+- name: Codes
+  link: "https://github.com/NishkaDG/Codes"
+  description: "Some error-detecting and -correcting codes."
