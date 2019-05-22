@@ -57,7 +57,7 @@ layout: default
 	<ul>
 	  {% for work in site.data.work %}
 	  <li>
-	    <p class="my-item">{{work.name}} at {{work.org}}, {{work.date}}
+	    <p class="my-item">{{work.name}} at {{work.org}}, {{work.date}}<br>
 		{{work.desc}}
 		</p>
 	  </li>
@@ -67,14 +67,12 @@ layout: default
     <ul>
       {% for edu in site.data.edu %}
       <li>
-	    <p class="my-item">{{edu.name}}, {{edu.inst}}, {{edu.year}}
+	    <p class="my-item">{{edu.name}}, {{edu.inst}}, {{edu.year}}<br>
 		</p>
       </li>
       {% endfor %}
     </ul>
-  <div>
-    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
-  </div>
+  
 </div>
 
 <noscript>
@@ -118,7 +116,7 @@ layout: default
 	<ul>
 	  {% for work in site.data.work %}
 	  <li>
-	    <p class="my-item">{{work.name}} at {{work.org}}, {{work.date}}
+	    <p class="my-item">{{work.name}} at {{work.org}}, {{work.date}}<br>
 		{{work.desc}}
 		</p>
 	  </li>
@@ -128,7 +126,7 @@ layout: default
     <ul>
       {% for edu in site.data.edu %}
       <li>
-	    <p class="my-item">{{edu.name}}, {{edu.inst}}, {{edu.year}}
+	    <p class="my-item">{{edu.name}}, {{edu.inst}}, {{edu.year}}<br>
 		</p>
       </li>
       {% endfor %}
