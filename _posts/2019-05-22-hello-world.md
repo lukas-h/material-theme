@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World!"
 date:   2019-05-22 12:12:00 +0530
-tags: ['example', 'welcome']
+tags: ['welcome']
 author: "Nishka Dasgupta"
 ---
 
