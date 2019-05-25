@@ -5,7 +5,7 @@ date:   2019-05-25 19:10:00 +0530
 tags: ['outreachy']
 author: "Nishka Dasgupta"
 ---
-**What is Outreachy?**
+*What is Outreachy?*
 
 [Outreachy](https://www.outreachy.org) is an amazing programme that provides funding and mentorship, for people belonging to groups that are under-represented in the technology industry, to work on open-source projects. Under-represented groups include women, LGBTQ+ people, people belonging to ethnic minorities, and “anyone who faces under-representation, systemic bias, or discrimination in the technology industry of their country”, which also would include differently-abled people. The internship itself is biannual – there is a December-March round, and a May-August round. The internships require a commitment of 40 hours per week for 3 months (possibly more), so it cannot be balanced with existing full-time jobs or college. Selected interns work from home on one open-source project of their choice for three months, under the guidance of a mentor. 
 
