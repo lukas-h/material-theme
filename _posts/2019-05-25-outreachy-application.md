@@ -5,17 +5,17 @@ date:   2019-05-25 19:10:00 +0530
 tags: ['outreachy']
 author: "Nishka Dasgupta"
 ---
-*What is Outreachy?*
+# *What is Outreachy?*
 
 [Outreachy](https://www.outreachy.org) is an amazing programme that provides funding and mentorship, for people belonging to groups that are under-represented in the technology industry, to work on open-source projects. Under-represented groups include women, LGBTQ+ people, people belonging to ethnic minorities, and “anyone who faces under-representation, systemic bias, or discrimination in the technology industry of their country”, which also would include differently-abled people. The internship itself is biannual – there is a December-March round, and a May-August round. The internships require a commitment of 40 hours per week for 3 months (possibly more), so it cannot be balanced with existing full-time jobs or college. Selected interns work from home on one open-source project of their choice for three months, under the guidance of a mentor. 
 
 I was fortunate to be accepted by Outreachy to work on the Linux project, Coccinelle clean-ups in the Linux kernel, from May-August 2019. In this post I will talk about the application process and share what I learned about the application process.
 
-**Who can apply?**
+*Who can apply?*
 
 If you want to apply to Outreachy, you do not need to be a current student or professional. You do, however, have to write on what barriers you have faced in the technology industry of your country, and what makes you believe you would face discrimination because of your identities. This is especially useful if you do belong to an under-represented group but do not see your identity explicitly listed on the website. This is the first step to creating an application.
 
-**How can you apply?**
+*How can you apply?*
 
 Once an initial application has been approved, you have to pick at least one open-source project that you want to intern for, from the list on the website (if selected, you will only be chosen for one project). The website helpfully provides a table for each project that lists what levels of proficiency in which skills (including specific programming languages) you need for that project. I would personally recommend one project for first-time applicants who are still students, because the six-week application period requires sustained contribution to the project(s) of your choice, and this is not easy to balance with classes or other work unless you have extensive prior open-source experience. 
 
