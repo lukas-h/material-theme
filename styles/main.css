@@ -199,8 +199,8 @@ a{
     margin-top: 20px;
 }
 .my-text-body h1,h2,h3,h4,h5,h6 {
-    font-family: 'Libre Franklin', sans-serif;
-
+    font-family: 'Share Tech Mono', monospace;
+    color: #4db6ac;
     font-weight: bold;
     margin-bottom: 20px;
 }

@@ -11,7 +11,7 @@ author: "Nishka Dasgupta"
 
 I was fortunate to be accepted by Outreachy to work on the Linux project, Coccinelle clean-ups in the Linux kernel, from May-August 2019. In this post I will talk about the application process and share what I learned about the application process.
 
-# Who can apply
+# Who can apply?
 
 If you want to apply to Outreachy, you do not need to be a current student or professional. You do, however, have to write on what barriers you have faced in the technology industry of your country, and what makes you believe you would face discrimination because of your identities. This is especially useful if you do belong to an under-represented group but do not see your identity explicitly listed on the website. This is the first step to creating an application.
 
