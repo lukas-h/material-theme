@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "How to Apply for Outreachy"
+title:  "A Rejection of Rejection Letters"
 date:   2019-05-25 18:10:00 +0530
-tags: ['personal']
+tags: ['personal', 'advice']
 author: "Nishka Dasgupta"
 ---
 Every rejection letter ever follows the same template: 

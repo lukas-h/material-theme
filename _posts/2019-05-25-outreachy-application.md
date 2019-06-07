@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Apply for Outreachy"
 date:   2019-05-25 19:10:00 +0530
-tags: ['outreachy']
+tags: ['outreachy', 'advice']
 author: "Nishka Dasgupta"
 ---
 # What is Outreachy?
