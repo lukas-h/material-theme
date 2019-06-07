@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Rejection of Rejection Letters"
-date:   2019-05-25 18:10:00 +0530
+date:   2019-06-07 18:30:00 +0530
 tags: ['personal', 'advice']
 author: "Nishka Dasgupta"
 ---
