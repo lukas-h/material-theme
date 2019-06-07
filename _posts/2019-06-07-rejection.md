@@ -14,7 +14,7 @@ Yours sincerely,
 
 etc."
 
-The nicer organisations and people will add encouragement, perhaps even asking you to apply again, and they do really mean it. But they are not, unfortunately in the majority. (Trust me on this, I have a pile of rejection letters somewhere in my inbox.) 
+The nicer organisations and people will add encouragement, perhaps even asking you to apply again, and they do really mean it. But they are not, unfortunately, in the majority. (Trust me on this, I have a pile of rejection letters somewhere in my inbox.) 
 
 When I noticed this underlying pattern, I realised that rejection letters will not sting a different way each time. Most rejection letters don’t have the space to criticise every aspect of me that was found wanting. We can, and should, introspect ourselves about why we missed out on this opportunity or that; but rejection letters are not (usually) a personal indictment of us as individuals. 
 
