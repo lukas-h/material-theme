@@ -12,4 +12,6 @@ If you are too busy to read these few lines, then please do this:
 
 #### License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
-This theme is distributed under the MIT License.
+This theme (except for favicon.png and the contents of \_posts) is distributed under the MIT License.
+
+favicon.png and the contents of \_posts are licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives](https://creativecommons.org/licenses/by-nc-nd/4.0/).
