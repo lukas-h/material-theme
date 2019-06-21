@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Coccinelle Cleanups in the Linux Kernel"
+date:   2019-06-21 20:10:00 +0530
+tags: ['outreachy', 'code']
+author: "Nishka Dasgupta"
+---
 The Linux kernel is open source, meaning that anyone can submit edits to it at any point. In the past 4 weeks alone, over 130 people have had their changes accepted into just one of the branches of the kernel. Seeing as the kernel is, well, older than I am, that roughly equates to a truly mind-boggling number of people who have ever contributed to it.
 
 Of course, with any project involving so many people over decades, some redundancies are likely to creep in. Perhaps someone will declare a variable, or even a whole function, that they wind up not using. Perhaps they will write a function `do_something()`, that uses a result from another function, `get_something()`; then later someone comes along and removes all the lines from `do_something()` except the bit where it calls `get_something()`. One driver will define the success signal as `1` and the failure signal as `0`; but another might define it the other way around. 
