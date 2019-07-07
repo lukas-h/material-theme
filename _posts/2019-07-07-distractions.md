@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Outreachy and the Value of Distractions"
-date:   2019-07-07 14:50:00 +0530
+date:   2019-07-07 15:20:00 +0530
 tags: ['outreachy', 'code']
 author: "Nishka Dasgupta"
 ---
