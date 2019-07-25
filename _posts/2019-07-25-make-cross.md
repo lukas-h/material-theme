@@ -6,15 +6,15 @@ author: "Nishka Dasgupta"
 ---
 
 The Linux kernel, by necessity, needs to run on a wide variety of architectures. However, by default, the kernel is compiled for the native architecture of the machine doing the 
-compiling (x64 in my case). Compiling it specifically for other architectures requires cross-compiling. In this post, I will discuss how to successfully cross-compile any program 
+compiling (x86_64 in my case). Compiling it specifically for other architectures requires cross-compiling. In this post, I will discuss how to successfully cross-compile any program 
 for any architecture in the Linux kernel. I will be using the default version of make on my laptop, as well as the script 
 [make.cross](https://github.com/bhumikagoyal/Cross-compile-kernel-drivers).
 
 # Architecture: A brief overview
 
-Computing devices (from smartphones to supercomputers) run on many kinds of hardware. Some of the more common architectures for this hardware are ARM, x86 and x64. 
+Computing devices (from smartphones to supercomputers) run on many kinds of hardware. Some of the more common architectures for this hardware are ARM, x86 and x86_64. 
 ARM takes advantage of Reduced Instruction Set Computing (RISC) to make do with fewer transistors, which is why it’s used in most mobile devices. Laptops and PCs, on the other hand, 
-commonly use x86 (where the smallest memory chunk is 32 bits) or x86_6464 (where the smallest memory chunk is 64 bits). We see that when downloading some software for our laptops or 
+commonly use x86 (where the smallest memory chunk is 32 bits) or x86_64 (where the smallest memory chunk is 64 bits). We see that when downloading some software for our laptops or 
 PCs, there will often be options even underneath the operating system, asking us whether we want the 32-bit version or the 64-bit one. There are, however, no such options when 
 downloading apps for our phones through the designated app store. 
 
@@ -26,7 +26,7 @@ for the programmer, so that the programmer can get away with writing a single ve
 # Cross-compiling: make and make.cross
 
 Let’s start with a specific file: drivers/staging/rtl8712/rtl871x_mlme.c, because I have a fondness for the rtl8712 driver. I want to compile it for ARM, but my laptop architecture 
-is x64. I’m going to attempt it in two ways: with the default make script, and with make.cross. 
+is x86_64. I’m going to attempt it in two ways: with the default make script, and with make.cross. 
 
 ## make with native architecture 
 
