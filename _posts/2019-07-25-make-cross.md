@@ -55,20 +55,35 @@ Now let’s try it for ARM.
 Right away, things start going wrong:
 
 `scripts/kconfig/conf  --allyesconfig Kconfig`
+
 `#`
+
 `# configuration written to .config`
+
 `#`
+
 `scripts/kconfig/conf  --syncconfig Kconfig`
-`  HOSTCC  scripts/selinux/mdp/mdp`
-`  CC      scripts/mod/empty.o`
+
+  `HOSTCC  scripts/selinux/mdp/mdp`
+  
+  `CC      scripts/mod/empty.o`
+
 `gcc: error: unrecognized argument in option '-mabi=aapcs-linux'`
+
 `gcc: note: valid arguments to '-mabi=' are: ms sysv`
+
 `gcc: error: unrecognized command line option '-mbig-endian'`
+
 `gcc: error: unrecognized command line option '-mapcs'; did you mean '-maes'?`
+
 `gcc: error: unrecognized command line option '-mno-sched-prolog'; did you mean '-Wno-sign-promo'?`
+
 `gcc: error: unrecognized command line option '-mfpu=vfp'; did you mean '-mcpu='?`
+
 `make[2]: *** [scripts/Makefile.build:274: scripts/mod/empty.o] Error 1`
+
 `make[1]: *** [Makefile:1119: prepare0] Error 2`
+
 `make: *** [Makefile:330: __build_one_by_one] Error 2`
 
 ### Why is this happening?
@@ -76,7 +91,9 @@ Right away, things start going wrong:
 Let’s take a look at my version of make:
 
 `$ make --version`
+
 `GNU Make 4.2.1`
+
 `Built for x86_64-pc-linux-gnu`
 
 There’s the problem. Even with the option "ARCH=arm", make is itself still a version for x86_64 architecture. That’s why it worked for "ARCH=x86_64".
@@ -84,7 +101,7 @@ There’s the problem. Even with the option "ARCH=arm", make is itself still a v
 ## make.cross and ARM
 
 If I want a successful compilation for ARM, I will need the right toolchain, the right versions of make and gcc, and so on. Thankfully, the file make.cross (available 
-[here](https://github.com/bhumikagoyal/Cross-compile-kernel-drivers) already has all the necessary commands.
+[here](https://github.com/bhumikagoyal/Cross-compile-kernel-drivers)) already has all the necessary commands.
 
 I run the file make.cross similarly to how I ran the usual make command:
 
