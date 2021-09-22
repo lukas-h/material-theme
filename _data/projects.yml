@@ -1,12 +1,19 @@
-- name: Shamir
-  link: "https://github.com/NishkaDG/Shamir"
-  description: "An implementation of Shamir's Secret Sharing Scheme."
+- name: PQC-mPSI
+  link: "https://github.com/shahakash28/PQC-mPSI"
+  description: "An implementation of linear multiparty set intersection as well as quorum and circuit set intersection. Paper found [here](https://eprint.iacr.org/2021/172)"
+  
+- name: mPSI-TableOPPRF
+  link: "https://github.com/shahakash28/mPSI-TableOPPRF"
+  description: "An implementation of multiparty set intersection with table-based OPPRF, as referenced [here](https://eprint.iacr.org/2021/172)"
+  
+- name: Outreachy Project
+  link: "https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git/log/?h=staging-testing&qt=grep&q=Nishka+Dasgupta"
+  description: "Cleanup project on the Linux kernel as part of [Outreachy](https://www.outreachy.org/)."
+
 - name: Applebaum-Arkis
   link: "https://github.com/NishkaDG/Applebaum-Arkis"
   description: "An implementation of the secret sharing scheme developed by Applebaum and Arkis in 2017."
+
 - name: svd-recommender
   link: "https://github.com/NishkaDG/svd-recommender"
   description: "A ground-up implementation of a user-based recommendation system. Improves upon previous SVD algorithms."
-- name: Codes
-  link: "https://github.com/NishkaDG/Codes"
-  description: "Some error-detecting and -correcting codes."
