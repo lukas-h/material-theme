@@ -1,6 +1,6 @@
 - name: PQC-mPSI
   link: "https://github.com/shahakash28/PQC-mPSI"
-  description: "An implementation of linear multiparty set intersection as well as quorum and circuit set intersection. Paper found [here](https://eprint.iacr.org/2021/172)"
+  description: "An implementation of linear multiparty set intersection as well as quorum and circuit set intersection. Paper found <a href="https://eprint.iacr.org/2021/172">here<a>."
   
 - name: mPSI-TableOPPRF
   link: "https://github.com/shahakash28/mPSI-TableOPPRF"
