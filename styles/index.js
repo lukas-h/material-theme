@@ -44,6 +44,8 @@ var show_cv = function() {
 var show_papers = function() {
     $('#posts-btn').removeClass('disabled');
     $('#posts').fadeOut(300);
+	$('#cv-btn').removeClass('disabled');
+	$('#cv').fadeOut(300);
 	$('#projects-btn').removeClass('disabled');
     $('#projects').fadeOut(function() {
         $('#papers').fadeIn(300)
