@@ -84,7 +84,7 @@ layout: default
   	<ul>
 	  {% for paper in site.data.papers %}
 	  <li>
-	    <p class="my-item">{{paper.name}} , {{paper.conf}} , <a href="{{ paper.link }}" class="my-link">ePrint<\a><br>
+	    <p class="my-item">{{paper.name}} , {{paper.conf}} , <a href="{{ paper.link }}" class="my-link">ePrint</a><br>
 		</p>
 	  </li>
 	  {% endfor %}
@@ -117,6 +117,7 @@ layout: default
       </li>
     </ul>
   </div>
+	
   <div id="projects-noscript">
     <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
     <ul>
@@ -131,6 +132,20 @@ layout: default
       {% endfor %}
     </ul>
   </div>
+
+	<div id="papers-noscript">
+    <h2 class="my-mini-heading">{{ Papers }}</h2>
+    <ul>
+      {% for paper in site.data.papers %}
+      <li>
+        <p class="my-item">{{paper.name}} , {{paper.conf}} <a href="{{ paper.link }}" class="my-link">ePrint</a><br>
+		</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+	
   <div id="cv-noscript">
     <h2 class="my-mini-heading">CV</h2>
 	<span class="my-mini-heading-sub">Work Experience</span>
