@@ -1,14 +1,14 @@
 - name: PQC-mPSI
   link: "https://github.com/shahakash28/PQC-mPSI"
-  description: "An implementation of linear multiparty set intersection as well as quorum and circuit set intersection. Paper found <a href="https://eprint.iacr.org/2021/172">here<a>."
+  description: "An implementation of linear multiparty set intersection as well as quorum and circuit set intersection. Paper linked in README."
   
 - name: mPSI-TableOPPRF
   link: "https://github.com/shahakash28/mPSI-TableOPPRF"
-  description: "An implementation of multiparty set intersection with table-based OPPRF, as referenced [here](https://eprint.iacr.org/2021/172)"
+  description: "An implementation of multiparty set intersection with table-based OPPRF, as referenced in the project."
   
 - name: Outreachy Project
   link: "https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git/log/?h=staging-testing&qt=grep&q=Nishka+Dasgupta"
-  description: "Cleanup project on the Linux kernel as part of [Outreachy](https://www.outreachy.org/)."
+  description: "Cleanup project on the Linux kernel as part of Outreachy."
 
 - name: Applebaum-Arkis
   link: "https://github.com/NishkaDG/Applebaum-Arkis"
