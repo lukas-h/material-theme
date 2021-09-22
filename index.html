@@ -84,8 +84,7 @@ layout: default
   	<ul>
 	  {% for paper in site.data.papers %}
 	  <li>
-	    <p class="my-item">{{paper.name}} , {{paper.conf}} , <a href+"{{ paper.link }}">ePrint<\a><br>
-		{{work.desc}}
+	    <p class="my-item">{{paper.name}} , {{paper.conf}} , <a href="{{ paper.link }}" class="my-link">ePrint<\a><br>
 		</p>
 	  </li>
 	  {% endfor %}
