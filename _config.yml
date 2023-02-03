@@ -3,9 +3,9 @@ description: "Hi! I'm HongSeoi and I'm interested in AI, Data Science, and Mobil
 about: "Hi! I'm HongSeoi and I'm interested in AI, Data Science, and Mobile"
 location: "Seoul, Republic of Korea"
 email: hongchaenui@gmail.com
-baseurl: "/material-theme"
+baseurl: ""
 
-url: "http://hongseoi.github.io/material-theme/" # replace by your site's url
+url: "http://hongseoi.github.io/" # replace by your site's url
 twitter_username: your-name
 github_username:  hongseoi
 author: "Your Name"
